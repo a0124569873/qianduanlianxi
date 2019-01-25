@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="demo">
+        的方式大苏打实打实的方式大苏打实打实的方式大苏打实打实
+        的方式大苏打实打实的方式大苏打实打实的方式大苏打实打实
+        的方式大苏打实打实的方式大苏打实打实的方式大苏打实打实
+        的方式大苏打实打实的方式大苏打实打实
+    </div>
+    <div class="demo1">
+        test  CSS
+    </div>
+    <style>
+        .demo1::before{
+            content: url("./b.jpg");
+            display: block;
+
+        }
+        .demo1::after{
+            content: url("./b.jpg");
+            display: block;
+        }
+        .demo1{
+            width: 300px;
+            margin: 10px auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+
+        }
+        .demo{
+            border: 1px solid #ccc;
+            width: 300px;
+            margin: 50px auto;
+            padding: 10px;
+
+        }
+        .demo::first-letter{
+            font-size: 40px;
+            font-weight: bold;
+            float: left;
+        }
+        .demo::first-line{
+            color: #f66;
+        }
+    </style>
+</body>
+</html>

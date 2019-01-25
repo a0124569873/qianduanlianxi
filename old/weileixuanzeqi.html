@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- <a href="">test zxn</a>
+    <input type="text">
+    <input type="text" disabled> -->
+    <div class="demo clearfix">
+        <ul class="clearfix">
+            <p></p>
+            <li><a href="">1</a></li>
+            <li><a href="">2</a></li>
+            <li><a href="">3</a></li>
+            <li><a href="">4</a></li>
+            <li><a href="">5</a></li>
+            <li><a href="">6</a></li>
+            <li><a href="">7</a></li>
+            <li><a href="">8</a></li>
+            <li><a href="">9</a></li>
+            <li><a href="">10</a></li>
+    
+        </ul>
+    </div>
+
+    <div class="demo clearfix">
+        <ul class="clearfix">
+            <!-- <p></p> -->
+            <li></li>
+            <li></li>
+            <!-- <li><a href="">2</a></li>
+            <li><a href="">3</a></li>
+            <li><a href="">4</a></li>
+            <li><a href="">5</a></li>
+            <li><a href="">6</a></li>
+            <li><a href="">7</a></li>
+            <li><a href="">8</a></li>
+            <li><a href="">9</a></li>
+            <li><a href="">10</a></li> -->
+    
+        </ul>
+    </div>
+    
+</body>
+<style>
+
+    /* odd even n 2n 2n+1 
+        nth-first-child
+        nth-last-child
+        nth-of-type
+        first-of-type
+        last-of-type
+        nth-child
+        only-child
+        only-of-child
+    */
+
+    .demo li:empty{
+        background-color: red; 
+    }
+
+    .clearfix{
+        clear: both;
+        overflow: auto;
+    }
+
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .demo{
+        border: 1px solid black;
+        width: 300px;
+        margin: 50px auto;
+        padding: 10px;
+    }
+
+    .demo li{
+        float: left;
+        list-style: none;
+        padding: 2px;
+        border: 1px solid #ccc;
+        margin-right: 4px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .demo a{
+        display: block;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        border-radius: 10px;
+        background-color: gray;
+        text-decoration: none; 
+    }
+
+    
+
+    
+
+
+    /* input:enabled{
+        background-color: aquamarine;
+    }
+    input:disabled{
+        background-color: bisque;
+    } */
+    /* a{
+        font: 50px;
+    }
+    a:link{
+        color: red;
+    }
+    a:hover{
+        color: green;
+    }
+    a:visited{
+        color: antiquewhite;
+    }
+    a:active{
+        color: blueviolet;
+    } */
+</style>
+</html>
