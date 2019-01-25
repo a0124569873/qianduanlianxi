@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="dialog">sdasdasdasd</div>
+</body>
+<style>
+.dialog{
+    background-color: #6A6;
+    margin: 50px auto;
+    width: 300px;
+    height: 25px;
+    line-height: 25px;
+    padding: 10px;
+    border-radius: 6px;
+    color: #fff;
+    position: relative;
+}
+
+.dialog::before{
+    content: "";
+    border-left: 0px solid #6a6;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #6a6;
+    position: absolute;
+    left: -10px;
+    top: 13px;
+
+}
+
+</style>
+</html>
